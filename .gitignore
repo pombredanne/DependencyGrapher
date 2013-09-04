@@ -1,0 +1,8 @@
+*.py[co]
+.project
+.pydevproject
+*.egg-info
+build
+dist
+setup.cfg
+
