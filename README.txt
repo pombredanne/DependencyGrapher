@@ -1,5 +1,10 @@
 Command line tools for generating Dependency Graphs in Gus.
 
+This utility relies on GraphViz to generate visualizations.  You will need to 
+install that first and then you can install the package with pip:
+
+	pip install dependency_grapher
+
 There are two command lines:
  - team_dependencies.py: Graph dependencies for a team
  - release_dependencies.py: Graph dependencies for a team within a release
