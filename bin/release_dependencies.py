@@ -8,6 +8,7 @@ gus = DependencyClient()
 grapher = DependencyGrapher()
 
 def graph_team_release(build, teamid, teamname):
+    print "Processing Dependencies for %s" % teamname
     data = gus.get_team_release_dependency_tree(build, teamid)
     label = "%s-%s" % (sys.argv[1], teamname)
     grapher.graph_dependencies(data, label)
